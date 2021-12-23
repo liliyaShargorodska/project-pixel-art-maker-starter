@@ -2,6 +2,9 @@
 const table = document.body.querySelector('#pixelCanvas');
 const myCanvas = document.body.querySelector('#sizePicker');
 
+/*
+  Set an event for creates a grid when the button submit is click
+*/
 myCanvas.addEventListener('submit',function(event)
     {
     event.preventDefault();//To prevent reloading the page, when click submit
